@@ -1,0 +1,19 @@
+<h1>Articles</h1>
+
+<ul>
+  <!--article.each do |nome| e igual o foreach -->
+  <% @articles.each do |article| %>
+    <li>
+      <!--sempre coloca %= igual php -->
+    <%= article.title %>
+    </li>
+  <% end %>
+</ul>
+
+<form action="">
+  <% @articles.each do |article| %>
+  <tr>
+    <td><%= article.title %></td>
+  </tr>
+    <<% end %>
+</form>
