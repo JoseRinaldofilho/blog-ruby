@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <h1>Articles</h1>
-
+<%= link_to 'New Article', new_article_path %>
 <ul>
   <!--article.each do |nome| e igual o foreach -->
   <% @articles.each do |article| %>
